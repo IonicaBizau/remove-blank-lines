@@ -2,4 +2,27 @@
 
 const removeEmptyLines = require("../lib");
 
-console.log(removeEmptyLines());
+console.log(removeEmptyLines(
+    `Hello
+
+World!
+
+
+  **   **
+
+  **   **
+
+     -
+
+*         *
+
+ *********`
+));
+// =>
+// Hello
+// World!
+//   **   **
+//   **   **
+//      -
+// *         *
+//  *********
