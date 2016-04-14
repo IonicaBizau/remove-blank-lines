@@ -1,9 +1,9 @@
 {
-  "name": "remove-empty-lines",
-  "description": "Remove empty lines from a string.",
+  "name": "remove-blank-lines",
+  "description": "Remove blank lines from a string.",
   "keywords": [
     "remove",
-    "empty",
+    "blank",
     "lines",
     "from",
     "a",
@@ -18,10 +18,10 @@
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/remove-empty-lines.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/remove-blank-lines.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/remove-empty-lines/issues"
+    "url": "https://github.com/IonicaBizau/remove-blank-lines/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/remove-empty-lines#readme"
+  "homepage": "https://github.com/IonicaBizau/remove-blank-lines#readme"
 }

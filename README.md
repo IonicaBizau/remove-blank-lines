@@ -1,11 +1,11 @@
-# remove-empty-lines [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/remove-empty-lines.svg)](https://www.npmjs.com/package/remove-empty-lines) [![Downloads](https://img.shields.io/npm/dt/remove-empty-lines.svg)](https://www.npmjs.com/package/remove-empty-lines) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# remove-blank-lines [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/remove-blank-lines.svg)](https://www.npmjs.com/package/remove-blank-lines) [![Downloads](https://img.shields.io/npm/dt/remove-blank-lines.svg)](https://www.npmjs.com/package/remove-blank-lines) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-> Remove empty lines from a string.
+> Remove blank lines from a string.
 
 ## :cloud: Installation
     
 ```sh
-$ npm i --save remove-empty-lines
+$ npm i --save remove-blank-lines
 ```
 
             
@@ -14,7 +14,7 @@ $ npm i --save remove-empty-lines
         
 
 ```js
-const removeEmptyLines = require("remove-empty-lines");
+const removeEmptyLines = require("remove-blank-lines");
 
 console.log(removeEmptyLines(
     `Hello
@@ -43,8 +43,8 @@ World!
     
 ## :memo: Documentation
         
-### `removeEmptyLines(a, b)`
-Remove empty lines from a string.
+### `removeBlankLines(a, b)`
+Remove blank lines from a string.
 
 #### Params
 - **Number** `a`: Param descrpition.
