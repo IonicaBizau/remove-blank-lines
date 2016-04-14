@@ -43,15 +43,14 @@ World!
     
 ## :memo: Documentation
         
-### `removeBlankLines(a, b)`
+### `removeBlankLines(input)`
 Remove blank lines from a string.
 
 #### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
+- **String** `input`: The input string.
 
 #### Return
-- **Number** Return description.
+- **String** The result string (without blank lines).
 
         
 ## :yum: How to contribute
