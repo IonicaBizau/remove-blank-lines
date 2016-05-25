@@ -1,17 +1,20 @@
-# remove-blank-lines [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/remove-blank-lines.svg)](https://www.npmjs.com/package/remove-blank-lines) [![Downloads](https://img.shields.io/npm/dt/remove-blank-lines.svg)](https://www.npmjs.com/package/remove-blank-lines) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+
+# remove-blank-lines
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/remove-blank-lines.svg)](https://www.npmjs.com/package/remove-blank-lines) [![Downloads](https://img.shields.io/npm/dt/remove-blank-lines.svg)](https://www.npmjs.com/package/remove-blank-lines) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Remove blank lines from a string.
 
 ## :cloud: Installation
-    
+
 ```sh
 $ npm i --save remove-blank-lines
 ```
 
-            
+
 ## :clipboard: Example
 
-        
+
 
 ```js
 const removeEmptyLines = require("remove-blank-lines");
@@ -20,6 +23,7 @@ console.log(removeEmptyLines(
     `Hello
 
 World!
+
 
   **   **
 
@@ -40,9 +44,10 @@ World!
 // *         *
 //  *********
 ```
-    
+
 ## :memo: Documentation
-        
+
+
 ### `removeBlankLines(input)`
 Remove blank lines from a string.
 
@@ -52,14 +57,21 @@ Remove blank lines from a string.
 #### Return
 - **String** The result string (without blank lines).
 
-        
+
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`tilda`](https://github.com/IonicaBizau/tilda)—Tiny module for building command line tools.
+
 ## :scroll: License
-    
+
 [MIT][license] © [Ionică Bizău][website]
-    
+
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
