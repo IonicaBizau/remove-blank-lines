@@ -10,7 +10,7 @@
     "string"
   ],
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +23,17 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/remove-blank-lines/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/remove-blank-lines#readme"
+  "homepage": "https://github.com/IonicaBizau/remove-blank-lines#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "cli.js",
+    "index.js"
+  ]
 }
