@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Remove blank lines from a string.
 
 #### Params
+
 - **String** `input`: The input string.
 
 #### Return
