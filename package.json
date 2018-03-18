@@ -13,9 +13,12 @@
   "version": "1.0.8",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "contributors": [
+    "Renan Bastos <renanbastos.tec@gmail.com> (http://renanbastos.com.br)"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/IonicaBizau/remove-blank-lines.git"
@@ -38,5 +41,8 @@
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
-  ]
+  ],
+  "dependencies": {
+    "mocha": "^5.0.4"
+  }
 }
