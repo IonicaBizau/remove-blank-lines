@@ -67,6 +67,13 @@ There are few ways to get help:
 ## :memo: Documentation
 
 
+### removeBlankLines
+
+Variable with regex to validate blank lines
+
+#### Return
+- **Regex**
+
 ### `removeBlankLines(input)`
 Remove blank lines from a string.
 
