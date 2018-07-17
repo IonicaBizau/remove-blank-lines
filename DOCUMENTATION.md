@@ -9,12 +9,8 @@ Variable with regex to validate blank lines
 #### Return
 - **Regex**
 
-### `removeBlankLines(input)`
+### `removeBlankLines()`
 Remove blank lines from a string.
-
-#### Params
-
-- **String** `input`: The input string.
 
 #### Return
 - **String** The result string (without blank lines).

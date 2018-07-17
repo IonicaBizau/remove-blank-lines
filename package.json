@@ -17,7 +17,8 @@
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "contributors": [
-    "Renan Bastos <renanbastos.tec@gmail.com> (http://renanbastos.com.br)"
+    "Renan Bastos <renanbastos.tec@gmail.com> (http://renanbastos.com.br)",
+    "CosasDePuma <kikefontanlorenzo@gmail.com> (https://github.com/cosasdepuma)"
   ],
   "repository": {
     "type": "git",
@@ -28,21 +29,9 @@
   },
   "homepage": "https://github.com/IonicaBizau/remove-blank-lines#readme",
   "files": [
-    "bin/",
-    "app/",
-    "lib/",
-    "dist/",
-    "src/",
-    "scripts/",
-    "resources/",
-    "menu/",
-    "cli.js",
-    "index.js",
-    "bloggify.js",
-    "bloggify.json",
-    "bloggify/"
+    "lib/"
   ],
-  "dependencies": {
+  "devDependencies": {
     "mocha": "^5.0.4"
   }
 }
