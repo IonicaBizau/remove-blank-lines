@@ -25,7 +25,7 @@ yarn add remove-blank-lines
 ```js
 require("remove-blank-lines");
 
-text = `Hello
+var text = `Hello
 
 World!
 
