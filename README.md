@@ -23,10 +23,9 @@ yarn add remove-blank-lines
 
 
 ```js
-const removeEmptyLines = require("remove-blank-lines");
+require("remove-blank-lines");
 
-console.log(removeEmptyLines(
-    `Hello
+text = `Hello
 
 World!
 
@@ -40,7 +39,8 @@ World!
 *         *
 
  *********`
-));
+
+console.log(text.removeBlankLines());
 // =>
 // Hello
 // World!
@@ -74,12 +74,8 @@ Variable with regex to validate blank lines
 #### Return
 - **Regex**
 
-### `removeBlankLines(input)`
+### `removeBlankLines()`
 Remove blank lines from a string.
-
-#### Params
-
-- **String** `input`: The input string.
 
 #### Return
 - **String** The result string (without blank lines).
