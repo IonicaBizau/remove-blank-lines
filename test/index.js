@@ -26,6 +26,6 @@ describe("this project must clean the blank lines" , () => {
         assert.equal(blankLines.test(inputWithBlankLines), true);
     });
     it("String must equal" , () => {
-        assert.equal(removeBlankLines(inputWithBlankLines), inputWithoutBlankLines);
+        assert.equal(inputWithBlankLines.removeBlankLines(), inputWithoutBlankLines);
     });
 });
