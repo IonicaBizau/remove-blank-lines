@@ -42,7 +42,7 @@
     "bloggify.json",
     "bloggify/"
   ],
-  "dependencies": {
-    "mocha": "^5.0.4"
+  "devDependencies": {
+    "mocha": "^7.1.1"
   }
 }
