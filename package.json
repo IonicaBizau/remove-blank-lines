@@ -10,7 +10,7 @@
     "string"
   ],
   "license": "MIT",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha ./test"
