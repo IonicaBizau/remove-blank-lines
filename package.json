@@ -10,7 +10,7 @@
     "string"
   ],
   "license": "MIT",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha ./test"
@@ -38,6 +38,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
